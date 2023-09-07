@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+   - name: ufc_data
+     database: PC_FIVETRAN_DB
+     schema: ufc
+     tables: 
+      - name: past_matches
+      - name: recent_events
